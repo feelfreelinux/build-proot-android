@@ -9,4 +9,4 @@ cd "$BUILD_DIR"
 
 if [ -d "proot-$PROOT_V" ] ; then exit 0 ; fi
 
-wget -O - "https://github.com/termux/proot/tarball/master" | tar -xzv
+wget -O - "https://github.com/green-green-avk/proot/archive/v$PROOT_V.tar.gz" | tar -xzv
